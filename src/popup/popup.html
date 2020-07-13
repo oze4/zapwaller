@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      min-width: 700px;
+      max-width: 700px;
+      min-height: 425px;
+      max-height: 425px;
+      font-size: larger;
+    }
+
+    body, * {
+      font-family: 'Ropa Sans', sans-serif;
+    }
+
+    button {
+      outline: none;
+    }
+
+    #content-wrapper {
+      margin: auto;
+      background: white;
+      padding: 10px;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="content-wrapper">
+    <div class="text-center">
+      <button id="submit">Add Scroll Events</button>
+    </div> 
+    <div class="text-center" id="result"></div>
+    <hr />
+    <p id="removedDivs"></p>
+    <p id="removedClasses"></p>
+    <p id="removedScroll"></p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>
