@@ -3,15 +3,26 @@
   "version": "0.0.1",
   "description": "Zap paywalls",
   "manifest_version": 2,
-  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "permissions": [
+    "activeTab",
+    "storage",
+    "declarativeContent"
+  ],
   "background": {
-    "scripts": ["src/background.js"],
+    "scripts": [
+      "src/background.js"
+    ],
     "persistent": false
   },
   "content_scripts": [
     {
-      "matches": ["http://*/*", "https://*/*"],
-      "js": ["src/contentScripts/paywallCheck.js"],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "src/contentScripts/paywallCheck.js"
+      ],
       "run_at": "document_end"
     }
   ],

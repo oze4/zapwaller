@@ -1,49 +1,41 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link href="popup.css" rel="stylesheet" />
+  </head>
 
-<head>
-  <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
-  <style>
-    body {
-      min-width: 700px;
-      max-width: 700px;
-      min-height: 425px;
-      max-height: 425px;
-      font-size: larger;
-    }
+  <body>
+    <div id="content-wrapper">
+      <div id="header" class="text-center pos-rel">
+        <h3>zapwaller</h3>
+        <img id="logo" class="mb-10 ml-15" src="../../assets/png/icon48.png" />
+      </div>
 
-    body, * {
-      font-family: 'Ropa Sans', sans-serif;
-    }
+      <!--
+      <div class="text-center">
+        <button id="submit">Add Scroll Events</button>
+      </div>
+      <div class="text-center" id="result"></div>
 
-    button {
-      outline: none;
-    }
+      <hr />
+      -->
 
-    #content-wrapper {
-      margin: auto;
-      background: white;
-      padding: 10px;
-    }
+      <div class="text-center">
+        <p id="removedDivs"></p>
+        <p id="removedClasses"></p>
+        <p id="removedScroll"></p>
+      </div>
 
-    .text-center {
-      text-align: center;
-    }
-  </style>
-</head>
+      <div id="footer">
+        <p id="isEnabled"></p>
+        <button id="toggle-enabled-disabled"></button>
+      </div>
+    </div>
 
-<body>
-  <div id="content-wrapper">
-    <div class="text-center">
-      <button id="submit">Add Scroll Events</button>
-    </div> 
-    <div class="text-center" id="result"></div>
-    <hr />
-    <p id="removedDivs"></p>
-    <p id="removedClasses"></p>
-    <p id="removedScroll"></p>
-  </div>
-  <script src="popup.js"></script>
-</body>
-
+    <script src="popup.js"></script>
+  </body>
 </html>

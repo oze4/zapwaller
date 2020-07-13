@@ -1,0 +1,28 @@
+{
+  "name": "zapwaller",
+  "version": "0.0.1",
+  "description": "Browser extension that attempts to automatically remove paywalls",
+  "main": "build.js",
+  "scripts": {
+    "build:chrome": "node build.js chrome",
+    "build:firefox": "node build.js firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oze4/zapwaller.git"
+  },
+  "keywords": [
+    "paywall",
+    "blocker",
+    "paywallblocker",
+    "block",
+    "adblock",
+    "paywallblockplus"
+  ],
+  "author": "Matt Oestreich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oze4/zapwaller/issues"
+  },
+  "homepage": "https://github.com/oze4/zapwaller#readme"
+}

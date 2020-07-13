@@ -1,0 +1,94 @@
+body {
+    min-width: 300px;
+    max-width: 700px;
+    /* min-height: 425px; */
+    max-height: 425px;
+    font-size: larger;
+}
+
+body,
+* {
+    font-family: "Ropa Sans", sans-serif;
+}
+
+body {
+    background-color: lightgray;
+}
+
+button {
+    outline: none;
+}
+
+p {
+    margin: 2px;
+}
+
+#content-wrapper {
+    margin: auto auto 30px auto;
+    background: white;
+    padding: 10px 10px 30px 10px;
+    background-color: lightgray;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#toggle-enabled-disabled {
+    height: 16px;
+    width: 88px;
+    font-size: x-small;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+#header {
+    margin-bottom: 70px;
+}
+
+#logo {
+    height: 48px;
+    width: 48px;
+}
+
+#header h3 {
+    z-index: 2;
+    position: absolute;
+    left: 30%;
+    font-size: 36px;
+    padding: 0;
+    margin: 5px 0 0 0;
+    color: white;
+}
+
+#header img {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+
+#isEnabled p {
+    padding: 0;
+    margin: 0;
+}
